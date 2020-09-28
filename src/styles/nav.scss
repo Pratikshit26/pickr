@@ -1,0 +1,20 @@
+.navigaion-container {
+  margin-bottom: 50px;
+  background: #1dc58d;
+  color: white;
+  .ant-menu-item {
+    float: right;
+  }
+  .logo {
+    float: left;
+    font-size: xx-large;
+  }
+
+  element.style {
+    display: none;
+  }
+  .ant-menu-item:hover {
+    color: white;
+    border-bottom: none;
+  }
+}

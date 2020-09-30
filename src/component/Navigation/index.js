@@ -7,11 +7,14 @@ export default class Navbar extends Component {
   render() {
     return (
       <Menu mode="horizontal" className="navigaion-container">
-        <Menu.Item className="logo">Beans Love Beer</Menu.Item>
-        <Menu.Item>Home</Menu.Item>
-
+        <Menu.Item className="logo" href="/">
+          Beans Love Beer
+        </Menu.Item>
         <Menu.Item>
-          <a href="https://ant.design">Favourites </a>
+          <a href="/fav">Favourites </a>
+        </Menu.Item>
+        <Menu.Item>
+          <a href="/">Home</a>
         </Menu.Item>
       </Menu>
     );

@@ -1,11 +1,27 @@
 .card-container {
   width: 400px;
-  img {
-    height: 100px;
-    width: 100px;
-    margin-right: 60px;
+  display: inline-block;
+  margin: 17px;
+  min-height: 400px;
+  vertical-align: text-top;
+  .ant-card-body {
+    padding: 29px 27px;
   }
-  .img-container {
-    margin-right: 100px;
+  img {
+    height: auto;
+    width: 50px;
+    margin-right: 38px;
+  }
+  .ant-card-meta-description {
+    color: rgb(0 0 0 / 66%);
+    text-align: left;
+  }
+  .ant-card-meta-title {
+    font-weight: 900;
+    text-align: left;
+  }
+  svg {
+    color: #1dc58d;
+    font-size: 20px;
   }
 }
